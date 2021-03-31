@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+}
+
+.nav-links {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9rem;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+#arrows {
+    font-size: 0.5rem;
+}
+
+.slide {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.carousel-caption h5 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    text-transform: uppercase
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 10px 100px;
+}
+
+.carousel-item button {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+
+#red-section {
+    background-color: #ED564B;
+    color: white;
+    text-align: center;
+}
+
+#red-section h3 {
+
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+#red-section p {
+    font-weight: 400;
+    margin: 20px 30px 50px 30px;
+}
+
+.icon svg {
+    margin-top: 50px;
+    height: 100px;
+    width: 100px;
+    border: 5px solid white;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.homepage {
+    color: #ED564B;
+}
+
+.all-projects {
+    margin: 70px 100px 30px 100px;
+}
+
+.projects hr {
+    margin: 10px 0 40px 10px;
+}
+
+.proj-images img {
+    height: 180px;
+    width: 270px;
+
+}
+
+.proj-images p {
+    width: 270px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.proj-images h4 {
+    margin: 15px 0 10px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.proj-images h5 {
+    margin-bottom: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.proj-images span {
+    color: red;
+}
+
+.proj-images article {
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+}
+
+.first-footer {
+    padding: 30px 100px 20px 100px;
+    background-color: #3b3b3b;
+    color: #606060;
+    border-top: 3px solid #ED564B;
+}
+
+.first-footer h3 {
+    font-size: 1.3rem;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.first-footer ul {
+    list-style: none;
+}
+
+.first-footer .col-3 {
+    font-size: 1rem;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: #606060;
+}
+
+.second-footer {
+    padding: 20px 100px 20px 100px;
+    background-color: #292929;
+    color: white;
+    font-size: 0.8rem;
+}
